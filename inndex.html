@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Application</h1>
+        <div class="searchbox">
+            <input type="text" placeholder="Enter city name" class="input-box"> 
+             <button id="search"><img src="icons8-search-50.png" alt="Search"></button> 
+        </div>
+        <div class="notfound">Sorry, location not found</div>
+        <div class="weatherbody">
+            <img src="cloud.png" alt="Weather Image" class="weather-image">
+            <div class="weather-box">
+                <p class="temprature">0°C</p>
+                <p class="description">Weather Condition</p>
+            </div>
+            <div class="weatherdetail">
+                <div class="humidity">
+                    <img src="humidity-removebg-preview.png" alt="Humidity">
+                    <p id="humidity">50%</p>
+                </div>
+                <div class="windspeed">
+                    <img src="wind-removebg-preview.png" alt="Wind Speed">
+                    <p id="wind-speed">15 km/h</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="inndex.js"></script>
+</body>
+</html>
